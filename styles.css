@@ -60,7 +60,7 @@ body {
     margin-bottom: 15px;
 }
 
-.content h2:hover {
+.content h1:hover {
     color: hsl(178, 100%, 50%);
     cursor: pointer;
 }
