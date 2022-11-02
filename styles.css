@@ -28,6 +28,27 @@ body {
     margin-bottom: -25px;
 }
 
+.activeState {
+    margin-top: -295px;
+    width: 295px;
+    height: 295px;
+    padding: 20px;
+    padding-top: 25px;
+    border-radius: 5px;
+    background-color: hsl(178, 100%, 50%, 0);
+    position: absolute;
+    margin-left: 20px;
+    display: grid;
+    place-content: center;
+    opacity: 0;
+}
+
+.activeState:hover {
+    background-color: hsl(178, 100%, 50%, 0.5);
+    opacity: 100%;
+    cursor: pointer;
+}
+
 .content {
     color: hsl(0, 0%, 100%);
     padding: 20px;
@@ -101,4 +122,9 @@ body {
 
 .content .credits p span {
     color: white;
+}
+
+.content .credits p span:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
 }
