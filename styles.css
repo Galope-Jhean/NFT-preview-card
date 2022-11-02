@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+    font-size: 1.125rem;
+    display: grid;
+    place-items: center;
+}
+
+.card {
+    background-color: hsl(216, 50%, 16%);
+    width: 335px;
+    border-radius: 15px;
+}
+
+.card .nft {
+    width: 100%;
+    padding: 20px;
+    border-radius: 25px;
+    margin-bottom: -25px;
+}
+
+.content {
+    color: hsl(0, 0%, 100%);
+    padding: 20px;
+}
+
+.content h2 {
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.content h2:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+.content p {
+    color: hsl(0, 2%, 63%);
+    margin-bottom: 18px;
+    font-weight: 300;
+    font-size: 1.1rem;
+}
+
+.content ul {
+    list-style-type: none;
+    font-weight: 400;
+    font-size: 0.95rem;
+}
+
+.content .logo {
+    margin-right: 5px;
+}
+
+.content ul li {
+    display: flex;
+    color: hsl(0, 2%, 63%);
+}
+
+.content ul li:nth-child(1) {
+    color: hsl(178, 100%, 50%);
+    float: left;
+}
+
+.content ul li:nth-child(2) {
+    float: right;
+}
+
+.content .price {
+    padding-bottom: 40px;
+    border-bottom: 1px solid hsl(215, 32%, 27%);
+}
+
+.content .credits {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.content .credits img {
+    width: 30px;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+.content .credits p {
+    font-weight: 400;
+    font-size: 1.1rem;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.content .credits p span {
+    color: white;
+}
